@@ -1,8 +1,11 @@
 {
   "name": "heapsgood.city",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "repository": "https://github.com/listingslab-software/heapsgood.city.git",
   "author": "listingslab <listingslab@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^4.0.1"
+  }
 }
