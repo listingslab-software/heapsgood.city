@@ -1,0 +1,46 @@
+[03-Apr-2019 03:34:09 UTC] PHP Warning:   .../api/Service.php:461  ET_Core_API_Service::make_remote_request():
+ET_Core_HTTPInterface ERROR :: Remote request failed...
+
+Details: ET_Core_HTTPInterface Object
+(
+    [REQUEST] => ET_Core_HTTPRequest Object
+        (
+            [ARGS] => Array
+                (
+                    [blocking] => 1
+                    [body] => {"note":"Subscribed via Divi Builder."}
+                    [cookies] => Array
+                        (
+                        )
+
+                    [headers] => Array
+                        (
+                            [Authorization] => Basic YnVpbGRlcjpiMDczNDczNzgzMTVkZjNmZDI5ZjVmZjAzZmU1MDYxMC11czE3
+                            [Accept] => application/json
+                        )
+
+                    [method] => POST
+                    [sslverify] => 1
+                    [user-agent] => WordPress/5.1.1; Divi Builder/3.4.1; http://heapsgoodhospo.com.au
+                    [timeout] => 30
+                )
+
+            [URL] => https://us17.api.mailchimp.com/3.0/lists/d070f9ceb3/members/0821a0b657b0289fb06ae15feee136e9/notes
+            [METHOD] => POST
+            [BODY] => {"note":"Subscribed via Divi Builder."}
+            [IS_AUTH] => 
+            [IS_JSON_BODY] => 
+            [OWNER] => builder
+        )
+
+    [RESPONSE] => ET_Core_HTTPResponse Object
+        (
+            [STATUS_CODE] => 404
+            [STATUS_MESSAGE] => Not Found
+            [ERROR] => 1
+            [ERROR_MESSAGE] => Not Found
+            [DATA] => {"type":"http://developer.mailchimp.com/documentation/mailchimp/guides/error-glossary/","title":"Resource Not Found","status":404,"detail":"The requested resource could not be found.","instance":"ce7916b0-e353-4a0d-aa7f-ca399b358e78"}
+        )
+
+)
+ in /home/heapsgoodhospo/public_html/wp-content/plugins/divi-builder/core/components/Logger.php on line 93

@@ -1,0 +1,19 @@
+benbobwillis@gmail.com
+
+benbobwillis
+
+
+
+
+https://account.34sp.com/reseller/3735
+
+
+adelaide@heapsgood.city
+
+
+Manual Setup
+Mail server username: adelaide@heapsgood.city
+Incoming mail server: heapsgood.city
+Outgoing mail server: heapsgood.city (server requires authentication)
+Supported incoming mail protocols: POP3, IMAP
+Supported outgoing mail protocols: SMTP
